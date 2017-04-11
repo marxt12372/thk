@@ -1,0 +1,5 @@
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseHarjutused\LiideseHarjutused\bin\Release\LiideseHarjutused.exe.config
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseHarjutused\LiideseHarjutused\bin\Release\LiideseHarjutused.exe
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseHarjutused\LiideseHarjutused\bin\Release\LiideseHarjutused.pdb
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseHarjutused\LiideseHarjutused\obj\Release\LiideseHarjutused.exe
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseHarjutused\LiideseHarjutused\obj\Release\LiideseHarjutused.pdb

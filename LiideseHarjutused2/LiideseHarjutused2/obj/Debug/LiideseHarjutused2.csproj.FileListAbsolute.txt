@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2015\Projects\LiideseHarjutused2\LiideseHarjutused2\bin\Debug\LiideseHarjutused2.exe.config
+c:\users\opilane\documents\visual studio 2015\Projects\LiideseHarjutused2\LiideseHarjutused2\bin\Debug\LiideseHarjutused2.exe
+c:\users\opilane\documents\visual studio 2015\Projects\LiideseHarjutused2\LiideseHarjutused2\bin\Debug\LiideseHarjutused2.pdb
+c:\users\opilane\documents\visual studio 2015\Projects\LiideseHarjutused2\LiideseHarjutused2\obj\Debug\LiideseHarjutused2.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2015\Projects\LiideseHarjutused2\LiideseHarjutused2\obj\Debug\LiideseHarjutused2.exe
+c:\users\opilane\documents\visual studio 2015\Projects\LiideseHarjutused2\LiideseHarjutused2\obj\Debug\LiideseHarjutused2.pdb

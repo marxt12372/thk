@@ -1,0 +1,11 @@
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseHarjutused\LiideseHarjutused\bin\Debug\LiideseHarjutused.exe.config
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseHarjutused\LiideseHarjutused\bin\Debug\LiideseHarjutused.exe
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseHarjutused\LiideseHarjutused\bin\Debug\LiideseHarjutused.pdb
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseHarjutused\LiideseHarjutused\obj\Debug\LiideseHarjutused.exe
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseHarjutused\LiideseHarjutused\obj\Debug\LiideseHarjutused.pdb
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\LiideseHarjutused\LiideseHarjutused\bin\Debug\LiideseHarjutused.exe.config
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\LiideseHarjutused\LiideseHarjutused\obj\Debug\LiideseHarjutused.exe
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\LiideseHarjutused\LiideseHarjutused\obj\Debug\LiideseHarjutused.pdb
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\LiideseHarjutused\LiideseHarjutused\bin\Debug\LiideseHarjutused.exe
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\LiideseHarjutused\LiideseHarjutused\bin\Debug\LiideseHarjutused.pdb
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\LiideseHarjutused\LiideseHarjutused\obj\Debug\LiideseHarjutused.csprojResolveAssemblyReference.cache
