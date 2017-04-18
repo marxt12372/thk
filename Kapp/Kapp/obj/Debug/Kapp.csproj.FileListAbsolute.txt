@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2015\Projects\Kapp\Kapp\bin\Debug\Kapp.exe.config
+c:\users\opilane\documents\visual studio 2015\Projects\Kapp\Kapp\bin\Debug\Kapp.exe
+c:\users\opilane\documents\visual studio 2015\Projects\Kapp\Kapp\bin\Debug\Kapp.pdb
+c:\users\opilane\documents\visual studio 2015\Projects\Kapp\Kapp\obj\Debug\Kapp.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2015\Projects\Kapp\Kapp\obj\Debug\Kapp.exe
+c:\users\opilane\documents\visual studio 2015\Projects\Kapp\Kapp\obj\Debug\Kapp.pdb
