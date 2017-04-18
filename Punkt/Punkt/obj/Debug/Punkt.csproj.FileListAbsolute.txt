@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2017\Projects\Punkt\Punkt\bin\Debug\Punkt.exe.config
+c:\users\opilane\documents\visual studio 2017\Projects\Punkt\Punkt\bin\Debug\Punkt.exe
+c:\users\opilane\documents\visual studio 2017\Projects\Punkt\Punkt\bin\Debug\Punkt.pdb
+c:\users\opilane\documents\visual studio 2017\Projects\Punkt\Punkt\obj\Debug\Punkt.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2017\Projects\Punkt\Punkt\obj\Debug\Punkt.exe
+c:\users\opilane\documents\visual studio 2017\Projects\Punkt\Punkt\obj\Debug\Punkt.pdb

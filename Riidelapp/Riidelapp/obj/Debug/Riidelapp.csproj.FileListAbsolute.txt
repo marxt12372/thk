@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2015\Projects\Riidelapp\Riidelapp\bin\Debug\Riidelapp.exe.config
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\Riidelapp\Riidelapp\bin\Debug\Riidelapp.exe
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\Riidelapp\Riidelapp\bin\Debug\Riidelapp.pdb
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\Riidelapp\Riidelapp\obj\Debug\Riidelapp.csprojResolveAssemblyReference.cache
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\Riidelapp\Riidelapp\obj\Debug\Riidelapp.exe
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\Riidelapp\Riidelapp\obj\Debug\Riidelapp.pdb
