@@ -88,6 +88,8 @@ namespace AbstraktneHarjutus2
 		{
 			Ristkylik kylik = new Ristkylik(2, 2);
 			Console.WriteLine("Ristküliku pindala on " + kylik.getPindala() + " ja ümbermõõt on " + kylik.getYmbermoot());
+			kylik.MuudaSuurust(2);
+			Console.WriteLine("Ristküliku pindala on " + kylik.getPindala() + " ja ümbermõõt on " + kylik.getYmbermoot());
 
 			TaisnurkneKolmnurk kolmnurk = new TaisnurkneKolmnurk(5, 3);
 			Console.WriteLine("Kolmnurga pindala on " + kolmnurk.getPindala() + " ning ümbermõõt on " + Math.Round(kolmnurk.getYmbermoot(), 2));
