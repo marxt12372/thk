@@ -24,7 +24,12 @@ namespace AbstraktneHarjutus2
 		}
 	}
 
-	class Ristkylik:Kujund
+	interface Muudetav
+	{
+		void MuudaSuurust(double x);
+	}
+
+	class Ristkylik:Kujund,Muudetav
 	{
 		private double _pikkus;
 		private double _laius;
@@ -43,6 +48,12 @@ namespace AbstraktneHarjutus2
 		public override double getYmbermoot()
 		{
 			return 2 * (_laius + _pikkus);
+		}
+
+		public void MuudaSuurust(double x)
+		{
+			_pikkus = _pikkus * x;
+			_laius = _laius * x;
 		}
 	}
 
