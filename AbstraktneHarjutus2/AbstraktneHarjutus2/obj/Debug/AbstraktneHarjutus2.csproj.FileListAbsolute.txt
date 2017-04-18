@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2015\Projects\AbstraktneHarjutus2\AbstraktneHarjutus2\bin\Debug\AbstraktneHarjutus2.exe.config
+c:\users\opilane\documents\visual studio 2015\Projects\AbstraktneHarjutus2\AbstraktneHarjutus2\bin\Debug\AbstraktneHarjutus2.exe
+c:\users\opilane\documents\visual studio 2015\Projects\AbstraktneHarjutus2\AbstraktneHarjutus2\bin\Debug\AbstraktneHarjutus2.pdb
+c:\users\opilane\documents\visual studio 2015\Projects\AbstraktneHarjutus2\AbstraktneHarjutus2\obj\Debug\AbstraktneHarjutus2.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2015\Projects\AbstraktneHarjutus2\AbstraktneHarjutus2\obj\Debug\AbstraktneHarjutus2.exe
+c:\users\opilane\documents\visual studio 2015\Projects\AbstraktneHarjutus2\AbstraktneHarjutus2\obj\Debug\AbstraktneHarjutus2.pdb
