@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2015\Projects\AbstraktneKlass\AbstraktneKlass\bin\Debug\AbstraktneKlass.exe.config
+c:\users\opilane\documents\visual studio 2015\Projects\AbstraktneKlass\AbstraktneKlass\obj\Debug\AbstraktneKlass.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2015\Projects\AbstraktneKlass\AbstraktneKlass\bin\Debug\AbstraktneKlass.exe
+c:\users\opilane\documents\visual studio 2015\Projects\AbstraktneKlass\AbstraktneKlass\bin\Debug\AbstraktneKlass.pdb
+c:\users\opilane\documents\visual studio 2015\Projects\AbstraktneKlass\AbstraktneKlass\obj\Debug\AbstraktneKlass.exe
+c:\users\opilane\documents\visual studio 2015\Projects\AbstraktneKlass\AbstraktneKlass\obj\Debug\AbstraktneKlass.pdb
