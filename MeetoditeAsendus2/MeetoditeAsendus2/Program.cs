@@ -40,6 +40,7 @@ namespace MeetoditeAsendus2
 
 		public override double kaugusNullist()
 		{
+			Console.WriteLine("3d kaugusnullist");
 			return Math.Sqrt(Math.Pow(Math.Abs(_x), 2) + Math.Pow(Math.Abs(_y), 2) + Math.Pow(Math.Abs(_z), 2));
 		}
 
@@ -64,8 +65,12 @@ namespace MeetoditeAsendus2
 
 			RuumiPunkt rp1 = new RuumiPunkt(1, 1, 1);
 			RuumiPunkt rp2 = new RuumiPunkt(1, 1, 1), rp3 = rp1;
+			Punkt p8 = new Punkt(1, 1), p9 = rp1;
+			p9.teataAndmed();
+			Console.WriteLine("kag: " + p9.kaugusNullist());
 			rp3.teataAndmed();
 			Console.WriteLine("rp3 on: " + rp3.GetType().ToString());
+			Console.WriteLine("p9 on: " + p9.GetType().ToString());
 		}
 	}
 }
