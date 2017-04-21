@@ -1,0 +1,6 @@
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\1TAR\MeetoditeAsendus\MeetoditeAsendus\bin\Debug\MeetoditeAsendus.exe.config
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\1TAR\MeetoditeAsendus\MeetoditeAsendus\bin\Debug\MeetoditeAsendus.exe
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\1TAR\MeetoditeAsendus\MeetoditeAsendus\bin\Debug\MeetoditeAsendus.pdb
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\1TAR\MeetoditeAsendus\MeetoditeAsendus\obj\Debug\MeetoditeAsendus.csprojResolveAssemblyReference.cache
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\1TAR\MeetoditeAsendus\MeetoditeAsendus\obj\Debug\MeetoditeAsendus.exe
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\1TAR\MeetoditeAsendus\MeetoditeAsendus\obj\Debug\MeetoditeAsendus.pdb
