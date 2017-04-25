@@ -119,7 +119,7 @@ namespace OmadusedHarjutus2
 			}
 			catch(Exception e)
 			{
-				Console.WriteLine("Error: " + e.ToString());
+				Console.WriteLine("Error: " + e.Message);
 			}
 			mina.Telnr = "555555";
 			string nr = mina.Telnr;

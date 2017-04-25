@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2015\Projects\OmadusedHarjutus3\OmadusedHarjutus3\bin\Debug\OmadusedHarjutus3.exe.config
+c:\users\opilane\documents\visual studio 2015\Projects\OmadusedHarjutus3\OmadusedHarjutus3\bin\Debug\OmadusedHarjutus3.exe
+c:\users\opilane\documents\visual studio 2015\Projects\OmadusedHarjutus3\OmadusedHarjutus3\bin\Debug\OmadusedHarjutus3.pdb
+c:\users\opilane\documents\visual studio 2015\Projects\OmadusedHarjutus3\OmadusedHarjutus3\obj\Debug\OmadusedHarjutus3.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2015\Projects\OmadusedHarjutus3\OmadusedHarjutus3\obj\Debug\OmadusedHarjutus3.exe
+c:\users\opilane\documents\visual studio 2015\Projects\OmadusedHarjutus3\OmadusedHarjutus3\obj\Debug\OmadusedHarjutus3.pdb
