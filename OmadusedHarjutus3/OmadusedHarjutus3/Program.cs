@@ -11,8 +11,9 @@ namespace OmadusedHarjutus3
 		private string _nimi;
 		private DateTime _synnipaev;
 
-		public Inimene(DateTime synna)
+		public Inimene(string nimi, DateTime synna)
 		{
+			_nimi = nimi;
 			_synnipaev = synna;
 		}
 
@@ -33,7 +34,7 @@ namespace OmadusedHarjutus3
 		{
 			get
 			{
-				return (DateTime.Now - _synnipaev).Days / 365;
+				return (int) ((DateTime.Now - _synnipaev).Days / 365.25);
 			}
 		}
 	}
@@ -41,8 +42,8 @@ namespace OmadusedHarjutus3
 	{
 		static void Main(string[] args)
 		{
-			Inimene mina = new Inimene(new DateTime(2000, 2, 20));
-			Console.WriteLine("Minu vanus: " + mina.Vanus + " aastat.");
+			Inimene mina = new Inimene("Mart", new DateTime(2000, 4, 24));
+			Console.WriteLine(mina.Nimi + " vanus: " + mina.Vanus + " aastat.");
 		}
 	}
 }
