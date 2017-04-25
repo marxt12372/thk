@@ -15,6 +15,7 @@ namespace OmadusedHarjutus2
 		public Kasutaja(string kasutajanimi)
 		{
 			_kasutajanimi = kasutajanimi;
+			_parool = "";
 		}
 
 		public string Kasutajanimi
@@ -29,7 +30,11 @@ namespace OmadusedHarjutus2
 		{
 			set
 			{
-				_parool = value;
+				if (Kasutaja.isValidParool(value))
+				{
+					_parool = value;
+				}
+				else throw new Exception("Parool ei ole piisavalt turvaline");
 			}
 		}
 
@@ -54,6 +59,45 @@ namespace OmadusedHarjutus2
 			}
 			return false;
 		}
+
+		public static bool isValidParool(string parool)
+		{
+			List<char> numbers = "0123456789".ToList();
+			List<char> characters = "abcdefghijklmnopqrstuvwöäõüxyz".ToList();
+			List<char> symbls = "<>|!,.-_?+=)([]&€%$#£@".ToList();
+
+			int numbreid = 0;
+			int karaktereid = 0;
+			int upperkaraktereid = 0;
+			int symboleid = 0;
+
+			foreach (char number in numbers)
+			{
+				if (parool.Contains(number)) { numbreid++; }
+			}
+
+			foreach (char karakter in characters)
+			{
+				if (parool.Contains(karakter)) { karaktereid++; }
+			}
+
+			foreach (char karakter in characters)
+			{
+				if (parool.Contains(char.ToUpper(karakter))) { upperkaraktereid++; }
+			}
+
+			foreach (char symbol in symbls)
+			{
+				if (parool.Contains(char.ToUpper(symbol))) { symboleid++; }
+			}
+
+			if (numbreid > 0 && karaktereid > 0 && upperkaraktereid > 0 && symboleid > 0 && parool.Length >= 8)
+			{
+				return true;
+			}
+
+			return false;
+		}
 	}
 	class Program
 	{
@@ -69,7 +113,14 @@ namespace OmadusedHarjutus2
 			Console.ReadKey();*/
 			Kasutaja mina = new Kasutaja("Mart");
 			string nimi = mina.Kasutajanimi;
-			mina.Parool = "ammon";
+			try
+			{
+				mina.Parool = "ammon";
+			}
+			catch(Exception e)
+			{
+				Console.WriteLine("Error: " + e.ToString());
+			}
 			mina.Telnr = "555555";
 			string nr = mina.Telnr;
 			Console.Write("Mis on sinu parool, " + mina.Kasutajanimi + ": ");
@@ -78,12 +129,28 @@ namespace OmadusedHarjutus2
 			{
 				Console.Write("Sisesta oma telefoni number: ");
 				string num = Console.ReadLine();
-				if(num != string.Empty)
+				if (num != string.Empty)
 				{
 					mina.Telnr = num;
 					Console.WriteLine("Minu number on " + mina.Telnr);
 				}
+
+				Console.WriteLine("Kohustatud paroolimuutus.");
+				string uusparool;
+				do
+				{
+					Console.Write("Sisesta uus parool(8 märki, suured, väiksed, numbrid, sümbolid): ");
+					uusparool = Console.ReadLine();
+				}
+				while (!Kasutaja.isValidParool(uusparool));
+				mina.Parool = uusparool;
+				Console.WriteLine("Parool on muudetud.");
 			}
+			else
+			{
+				Console.WriteLine("Vale parool.");
+			}
+			Console.ReadKey();
 		}
 	}
 }
