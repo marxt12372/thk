@@ -1,0 +1,5 @@
+c:\users\opilane\documents\visual studio 2015\Projects\OmadusedHarjutus2\OmadusedHarjutus2\bin\Debug\OmadusedHarjutus2.exe.config
+c:\users\opilane\documents\visual studio 2015\Projects\OmadusedHarjutus2\OmadusedHarjutus2\bin\Debug\OmadusedHarjutus2.exe
+c:\users\opilane\documents\visual studio 2015\Projects\OmadusedHarjutus2\OmadusedHarjutus2\bin\Debug\OmadusedHarjutus2.pdb
+c:\users\opilane\documents\visual studio 2015\Projects\OmadusedHarjutus2\OmadusedHarjutus2\obj\Debug\OmadusedHarjutus2.exe
+c:\users\opilane\documents\visual studio 2015\Projects\OmadusedHarjutus2\OmadusedHarjutus2\obj\Debug\OmadusedHarjutus2.pdb
