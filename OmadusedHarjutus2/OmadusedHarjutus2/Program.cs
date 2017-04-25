@@ -59,14 +59,31 @@ namespace OmadusedHarjutus2
 	{
 		static void Main(string[] args)
 		{
-			Kasutaja player = new Kasutaja("marxt12372");
+			/*Kasutaja player = new Kasutaja("marxt12372");
 			player.Parool = "progeja";
 			//player.Kasutajanimi = "yoyo";
 			//Console.WriteLine("Kasutaja " + player.Kasutajanimi + " parool on " + player.Parool);
 			Console.WriteLine("Kasutaja " + player.Kasutajanimi + " parool on \"pelur\"? - " + player.KontrolliParooli("pelur"));
 			player.Telnr = "56881414";
 			Console.WriteLine("Kasutaja " + player.Kasutajanimi + " telefoninumber on " + player.Telnr);
-
+			Console.ReadKey();*/
+			Kasutaja mina = new Kasutaja("Mart");
+			string nimi = mina.Kasutajanimi;
+			mina.Parool = "ammon";
+			mina.Telnr = "555555";
+			string nr = mina.Telnr;
+			Console.Write("Mis on sinu parool, " + mina.Kasutajanimi + ": ");
+			string parool = Console.ReadLine();
+			if(mina.KontrolliParooli(parool))
+			{
+				Console.Write("Sisesta oma telefoni number: ");
+				string num = Console.ReadLine();
+				if(num != string.Empty)
+				{
+					mina.Telnr = num;
+					Console.WriteLine("Minu number on " + mina.Telnr);
+				}
+			}
 		}
 	}
 }
