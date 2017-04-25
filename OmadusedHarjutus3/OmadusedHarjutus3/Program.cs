@@ -33,7 +33,7 @@ namespace OmadusedHarjutus3
 		{
 			get
 			{
-				return DateTime.Today.Year - _synnipaev.Year;
+				return (DateTime.Now - _synnipaev).Days / 365;
 			}
 		}
 	}
@@ -42,7 +42,7 @@ namespace OmadusedHarjutus3
 		static void Main(string[] args)
 		{
 			Inimene mina = new Inimene(new DateTime(2000, 2, 20));
-			Console.WriteLine("Minu vanus: " + mina.Vanus);
+			Console.WriteLine("Minu vanus: " + mina.Vanus + " aastat.");
 		}
 	}
 }
