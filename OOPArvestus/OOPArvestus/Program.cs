@@ -8,13 +8,12 @@ using System.Threading.Tasks;
 
 namespace OOPArvestus
 {
-	interface IEhitis
+	interface INaaber
 	{
-		void helistaKella();
-		void renoveeri(int arv);
+		void tervitaNaabrit();
 	}
 
-	class Maja:IEhitis
+	class Maja
 	{
 		protected int _tubasi;
 		protected int _magamistube;
@@ -36,15 +35,30 @@ namespace OOPArvestus
 
 		public int Magamistube {
 			get { return _magamistube; }
-			set { _magamistube = value; }
+			set
+			{
+				_magamistube = value;
+				if (_magamistube > _tubasi)
+				{
+					_magamistube = _tubasi;
+				}
+				if (_magamistube < 0)
+				{
+					_magamistube = 0;
+				}
+			}
 		}
 
 		public void renoveeri(int arv)
 		{
 			_magamistube += arv;
-			if(_magamistube < 1)
+			if(_magamistube > _tubasi)
 			{
-				_magamistube = 1;
+				_magamistube = _tubasi;
+			}
+			if(_magamistube < 0)
+			{
+				_magamistube = 0;
 			}
 		}
 
@@ -53,7 +67,7 @@ namespace OOPArvestus
 		}
 	}
 
-	class Ridaelamu:Maja
+	class Ridaelamu:Maja,INaaber
 	{
 		protected int _naabreid;
 
