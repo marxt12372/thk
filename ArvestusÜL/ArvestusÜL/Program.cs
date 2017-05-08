@@ -49,7 +49,7 @@ namespace ArvestusÜL
 		}
 	}
 
-	class Kaubik:Auto
+	class Kaubik:Auto, IKaubavedu
 	{
 
 		protected double _kaubaruum;
@@ -80,6 +80,21 @@ namespace ArvestusÜL
 				}
 			}
 		}
+
+		public void LaeEuroAlus()
+		{
+			VabaKaubaruum -= 1;
+		}
+
+		public new void SiseneAutosse(int arv)
+		{
+
+		}
+	}
+
+	interface IKaubavedu
+	{
+		void LaeEuroAlus();
 	}
 
 	class Program
