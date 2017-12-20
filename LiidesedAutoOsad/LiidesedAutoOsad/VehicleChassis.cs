@@ -15,9 +15,10 @@ namespace LiidesedAutoOsad
 			_chassisName = chassisName;
 		}
 
-		/*public IChassis GetChassisType()
+		public IChassis GetChassisType()
 		{
-		}*/
+			return null;
+		}
 
 		public void SetChassisType(string type)
 		{
