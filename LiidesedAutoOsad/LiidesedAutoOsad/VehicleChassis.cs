@@ -22,7 +22,12 @@ namespace LiidesedAutoOsad
 
 		public void SetChassisType(string type)
 		{
+			_chassisName = type;
+		}
 
+		public override string ToString()
+		{
+			return "Chassis Name: " + _chassisName;
 		}
 	}
 }
