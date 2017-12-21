@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseNäide\LiideseNäide\bin\Debug\LiideseNäide.exe.config
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseNäide\LiideseNäide\bin\Debug\LiideseNäide.exe
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseNäide\LiideseNäide\bin\Debug\LiideseNäide.pdb
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseNäide\LiideseNäide\obj\Debug\LiideseNäide.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseNäide\LiideseNäide\obj\Debug\LiideseNäide.exe
+c:\users\opilane\documents\visual studio 2017\Projects\LiideseNäide\LiideseNäide\obj\Debug\LiideseNäide.pdb

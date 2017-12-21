@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LiidesedAutoOsad
 {
-	class VehicleChassis:IChassis
+	class VehicleChassis : IChassis
 	{
 		private string _chassisName;
 

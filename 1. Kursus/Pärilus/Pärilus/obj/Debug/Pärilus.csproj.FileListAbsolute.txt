@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2015\Projects\Pärilus\Pärilus\bin\Debug\Pärilus.exe.config
+c:\users\opilane\documents\visual studio 2015\Projects\Pärilus\Pärilus\bin\Debug\Pärilus.exe
+c:\users\opilane\documents\visual studio 2015\Projects\Pärilus\Pärilus\bin\Debug\Pärilus.pdb
+c:\users\opilane\documents\visual studio 2015\Projects\Pärilus\Pärilus\obj\Debug\Pärilus.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2015\Projects\Pärilus\Pärilus\obj\Debug\Pärilus.exe
+c:\users\opilane\documents\visual studio 2015\Projects\Pärilus\Pärilus\obj\Debug\Pärilus.pdb

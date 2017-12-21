@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2015\Projects\OOPArvestus\OOPArvestus\bin\Debug\OOPArvestus.exe.config
+c:\users\opilane\documents\visual studio 2015\Projects\OOPArvestus\OOPArvestus\bin\Debug\OOPArvestus.exe
+c:\users\opilane\documents\visual studio 2015\Projects\OOPArvestus\OOPArvestus\bin\Debug\OOPArvestus.pdb
+c:\users\opilane\documents\visual studio 2015\Projects\OOPArvestus\OOPArvestus\obj\Debug\OOPArvestus.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2015\Projects\OOPArvestus\OOPArvestus\obj\Debug\OOPArvestus.exe
+c:\users\opilane\documents\visual studio 2015\Projects\OOPArvestus\OOPArvestus\obj\Debug\OOPArvestus.pdb

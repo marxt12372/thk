@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2015\Projects\KlassiMuutuja\KlassiMuutuja\bin\Debug\KlassiMuutuja.exe.config
+c:\users\opilane\documents\visual studio 2015\Projects\KlassiMuutuja\KlassiMuutuja\bin\Debug\KlassiMuutuja.exe
+c:\users\opilane\documents\visual studio 2015\Projects\KlassiMuutuja\KlassiMuutuja\bin\Debug\KlassiMuutuja.pdb
+c:\users\opilane\documents\visual studio 2015\Projects\KlassiMuutuja\KlassiMuutuja\obj\Debug\KlassiMuutuja.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2015\Projects\KlassiMuutuja\KlassiMuutuja\obj\Debug\KlassiMuutuja.exe
+c:\users\opilane\documents\visual studio 2015\Projects\KlassiMuutuja\KlassiMuutuja\obj\Debug\KlassiMuutuja.pdb

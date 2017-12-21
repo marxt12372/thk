@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2015\Projects\Omadused\Omadused\bin\Debug\Omadused.exe.config
+c:\users\opilane\documents\visual studio 2015\Projects\Omadused\Omadused\bin\Debug\Omadused.exe
+c:\users\opilane\documents\visual studio 2015\Projects\Omadused\Omadused\bin\Debug\Omadused.pdb
+c:\users\opilane\documents\visual studio 2015\Projects\Omadused\Omadused\obj\Debug\Omadused.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2015\Projects\Omadused\Omadused\obj\Debug\Omadused.exe
+c:\users\opilane\documents\visual studio 2015\Projects\Omadused\Omadused\obj\Debug\Omadused.pdb

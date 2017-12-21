@@ -1,0 +1,5 @@
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\1TAR\MeetoditeAsendus2\MeetoditeAsendus2\bin\Debug\MeetoditeAsendus2.exe.config
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\1TAR\MeetoditeAsendus2\MeetoditeAsendus2\bin\Debug\MeetoditeAsendus2.exe
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\1TAR\MeetoditeAsendus2\MeetoditeAsendus2\bin\Debug\MeetoditeAsendus2.pdb
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\1TAR\MeetoditeAsendus2\MeetoditeAsendus2\obj\Debug\MeetoditeAsendus2.exe
+C:\Users\opilane\Documents\Visual Studio 2015\Projects\1TAR\MeetoditeAsendus2\MeetoditeAsendus2\obj\Debug\MeetoditeAsendus2.pdb

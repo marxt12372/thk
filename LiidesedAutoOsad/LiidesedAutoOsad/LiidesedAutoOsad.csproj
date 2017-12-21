@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{937888EF-5ED2-4CA3-8378-82CAC4647F2D}</ProjectGuid>
+    <ProjectGuid>{913E1972-62F1-4DB9-A649-181A478A7E07}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>LiidesedAutoOsad</RootNamespace>
     <AssemblyName>LiidesedAutoOsad</AssemblyName>

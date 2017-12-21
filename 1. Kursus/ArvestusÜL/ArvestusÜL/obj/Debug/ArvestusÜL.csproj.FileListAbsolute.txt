@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2015\Projects\ArvestusÜL\ArvestusÜL\bin\Debug\ArvestusÜL.exe.config
+c:\users\opilane\documents\visual studio 2015\Projects\ArvestusÜL\ArvestusÜL\bin\Debug\ArvestusÜL.exe
+c:\users\opilane\documents\visual studio 2015\Projects\ArvestusÜL\ArvestusÜL\bin\Debug\ArvestusÜL.pdb
+c:\users\opilane\documents\visual studio 2015\Projects\ArvestusÜL\ArvestusÜL\obj\Debug\ArvestusÜL.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2015\Projects\ArvestusÜL\ArvestusÜL\obj\Debug\ArvestusÜL.exe
+c:\users\opilane\documents\visual studio 2015\Projects\ArvestusÜL\ArvestusÜL\obj\Debug\ArvestusÜL.pdb
