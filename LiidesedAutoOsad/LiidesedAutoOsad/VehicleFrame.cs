@@ -20,6 +20,11 @@ namespace LiidesedAutoOsad
 			_frameType = type;
 		}
 
+		public string GetFrameType()
+		{
+			return _frameType;
+		}
+
 		public IChassis GetChassisType()
 		{
 			return this;
@@ -32,7 +37,7 @@ namespace LiidesedAutoOsad
 
 		public override string ToString()
 		{
-			return "Vehicle Frame: " + _frameType;
+			return "Chassis: Chassis\nVehicle Frame: " + _frameType;
 		}
 	}
 }

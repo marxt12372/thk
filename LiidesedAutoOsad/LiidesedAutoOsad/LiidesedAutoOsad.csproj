@@ -42,8 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
+    <Compile Include="ExteriorFeature.cs" />
+    <Compile Include="IChassis.cs" />
+    <Compile Include="IEngine.cs" />
+    <Compile Include="IFeature.cs" />
+    <Compile Include="IGeneric.cs" />
+    <Compile Include="InteriorFeature.cs" />
+    <Compile Include="ManufacturedEngine.cs" />
+    <Compile Include="Manufacturer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vehicle.cs" />
+    <Compile Include="VehicleChassis.cs" />
+    <Compile Include="VehicleFrame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

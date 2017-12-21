@@ -1,0 +1,7 @@
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\LiidesedAutoOsad\LiidesedAutoOsad\bin\Debug\LiidesedAutoOsad.exe.config
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\LiidesedAutoOsad\LiidesedAutoOsad\bin\Debug\LiidesedAutoOsad.exe
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\LiidesedAutoOsad\LiidesedAutoOsad\bin\Debug\LiidesedAutoOsad.pdb
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\LiidesedAutoOsad\LiidesedAutoOsad\obj\Debug\LiidesedAutoOsad.csprojResolveAssemblyReference.cache
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\LiidesedAutoOsad\LiidesedAutoOsad\obj\Debug\LiidesedAutoOsad.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\LiidesedAutoOsad\LiidesedAutoOsad\obj\Debug\LiidesedAutoOsad.exe
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\LiidesedAutoOsad\LiidesedAutoOsad\obj\Debug\LiidesedAutoOsad.pdb
