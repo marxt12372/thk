@@ -32,7 +32,7 @@ namespace LiidesedAutoOsad
 			string features = "";
 			foreach(IFeature feature in _features)
 			{
-				if (feature.GetType().ToString() == "LiidesedAutoOsad.ExteriorFeature")
+				if(feature.GetType() == typeof(ExteriorFeature))
 				{
 					features += feature.ToString() + "\n";
 				}
@@ -45,7 +45,7 @@ namespace LiidesedAutoOsad
 			string features = "";
 			foreach (IFeature feature in _features)
 			{
-				if (feature.GetType().ToString() == "LiidesedAutoOsad.InteriorFeature")
+				if (feature.GetType() == typeof(InteriorFeature))
 				{
 					features += feature.ToString() + "\n";
 				}
