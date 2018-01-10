@@ -43,6 +43,7 @@ namespace LiidesedAutoOsad
 			Car car = new Car();
 			Console.WriteLine(car.ToString());
 			Console.WriteLine();
+
 			List<IFeature> features = new List<IFeature>();
 			features.Add(new InteriorFeature("Electric Windows"));
 			features.Add(new InteriorFeature("AM/FM Radio"));
@@ -52,6 +53,7 @@ namespace LiidesedAutoOsad
 			features.Add(new ExteriorFeature("LED headlamps"));
 			Car car2 = new Car(new DateTime(2012, 1, 3, 7, 13, 19), "Audi", "A-Series", "A4", "Personal Vehicle", new VehicleChassis("B8"), new ManufacturedEngine("Audi", new DateTime(2012, 1, 3, 7, 13, 19), "V-Series", "AH11", 6, "Petrol", "AWD: All Wheel Drive"), features, 2);
 			Console.WriteLine(car2.ToString());
+			Console.ReadKey();
 		}
 	}
 }

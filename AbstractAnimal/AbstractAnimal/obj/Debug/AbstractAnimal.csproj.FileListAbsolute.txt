@@ -1,0 +1,7 @@
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\AbstractAnimal\AbstractAnimal\bin\Debug\AbstractAnimal.exe.config
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\AbstractAnimal\AbstractAnimal\bin\Debug\AbstractAnimal.exe
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\AbstractAnimal\AbstractAnimal\bin\Debug\AbstractAnimal.pdb
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\AbstractAnimal\AbstractAnimal\obj\Debug\AbstractAnimal.csprojResolveAssemblyReference.cache
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\AbstractAnimal\AbstractAnimal\obj\Debug\AbstractAnimal.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\AbstractAnimal\AbstractAnimal\obj\Debug\AbstractAnimal.exe
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\AbstractAnimal\AbstractAnimal\obj\Debug\AbstractAnimal.pdb
