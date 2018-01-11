@@ -8,7 +8,11 @@ namespace AbstractAnimal
 {
 	class Dog:Animal
 	{
-		public override void makeNoise()
+		public Dog(int vanus):base(vanus)
+		{
+		}
+
+		public override void MakeNoise()
 		{
 			Console.WriteLine("Auh auh auh");
 		}

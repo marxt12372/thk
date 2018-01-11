@@ -10,14 +10,20 @@ namespace AbstractAnimal
 	{
 		static void Main(string[] args)
 		{
-			Animal loom = new Animal();
-			loom.makeNoise();
+			Animal loom = new Animal(10);
+			loom.MakeNoise();
+			Console.WriteLine();
 
-			Dog koer = new Dog();
-			koer.makeNoise();
+			Dog koer = new Dog(2);
+			koer.MakeNoise();
+			Console.WriteLine();
 
-			Animal loomKoer = new Dog();
-			loomKoer.makeNoise();
+			Animal loomKoer = new Dog(2);
+			loomKoer.MakeNoise();
+			loomKoer.Greet();
+			Console.WriteLine();
+
+			//Species species = new Species(50);
 		}
 	}
 }

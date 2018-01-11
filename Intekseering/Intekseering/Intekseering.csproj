@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{88550A1E-BB83-41F8-A34A-0091403A4233}</ProjectGuid>
+    <ProjectGuid>{3FC0F675-3F36-4E3D-9B74-61943E2DB9D5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractAnimal</RootNamespace>
-    <AssemblyName>AbstractAnimal</AssemblyName>
+    <RootNamespace>Intekseering</RootNamespace>
+    <AssemblyName>Intekseering</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animal.cs" />
-    <Compile Include="Dog.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Species.cs" />
+    <Compile Include="Ruuduarvutus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

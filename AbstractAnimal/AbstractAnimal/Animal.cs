@@ -6,11 +6,21 @@ using System.Threading.Tasks;
 
 namespace AbstractAnimal
 {
-	class Animal
+	class Animal:Species
 	{
-		public virtual void makeNoise()
+		public Animal(int vanus):base(vanus)
+		{
+		}
+
+		public virtual void MakeNoise()
 		{
 			Console.WriteLine("** Looma mõirgamine");
+		}
+
+		public override void Greet()
+		{
+			MakeNoise();
+			SayAge();
 		}
 	}
 }
