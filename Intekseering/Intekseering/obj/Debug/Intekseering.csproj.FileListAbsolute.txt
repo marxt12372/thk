@@ -1,0 +1,7 @@
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Intekseering\Intekseering\bin\Debug\Intekseering.exe.config
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Intekseering\Intekseering\bin\Debug\Intekseering.exe
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Intekseering\Intekseering\bin\Debug\Intekseering.pdb
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Intekseering\Intekseering\obj\Debug\Intekseering.csprojResolveAssemblyReference.cache
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Intekseering\Intekseering\obj\Debug\Intekseering.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Intekseering\Intekseering\obj\Debug\Intekseering.exe
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Intekseering\Intekseering\obj\Debug\Intekseering.pdb

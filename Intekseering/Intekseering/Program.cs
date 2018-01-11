@@ -11,7 +11,19 @@ namespace Intekseering
 		static void Main(string[] args)
 		{
 			Ruuduarvutus r = new Ruuduarvutus();
-			Console.WriteLine(r[3]);
+			Kuubiarvutis k = new Kuubiarvutis();
+			
+			Console.WriteLine("Ruudud 1 - 20");
+			for(int i = 1; i <= 20; i++)
+			{
+				Console.WriteLine(i + ": " + r[i]);
+			}
+
+			Console.WriteLine("Kuubid 1 - 20");
+			for (int i = 1; i <= 20; i++)
+			{
+				Console.WriteLine(i + ": " + k[i]);
+			}
 		}
 	}
 }
