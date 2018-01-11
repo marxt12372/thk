@@ -16,6 +16,9 @@ namespace Vahendaja1
 			{
 				Console.WriteLine(k[i] + " - " + k[-i-1]);
 			}
+
+			Console.WriteLine(k[k.Length]);
+			Console.WriteLine(k[-k.Length - 1]);
 		}
 	}
 }
