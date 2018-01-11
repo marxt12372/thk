@@ -1,0 +1,6 @@
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Vahendus\Vahendus\bin\Debug\Vahendus.exe.config
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Vahendus\Vahendus\bin\Debug\Vahendus.exe
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Vahendus\Vahendus\bin\Debug\Vahendus.pdb
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Vahendus\Vahendus\obj\Debug\Vahendus.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Vahendus\Vahendus\obj\Debug\Vahendus.exe
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Vahendus\Vahendus\obj\Debug\Vahendus.pdb

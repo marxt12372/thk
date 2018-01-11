@@ -1,0 +1,6 @@
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Vahendaja2\Vahendaja2\bin\Debug\Vahendaja2.exe.config
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Vahendaja2\Vahendaja2\bin\Debug\Vahendaja2.exe
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Vahendaja2\Vahendaja2\bin\Debug\Vahendaja2.pdb
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Vahendaja2\Vahendaja2\obj\Debug\Vahendaja2.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Vahendaja2\Vahendaja2\obj\Debug\Vahendaja2.exe
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\Vahendaja2\Vahendaja2\obj\Debug\Vahendaja2.pdb
