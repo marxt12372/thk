@@ -16,7 +16,12 @@ namespace OdeToFood
 			routes.MapRoute(
 				name: "Cuisine",
 				url: "cuisine/{name}",
-				defaults: new {controller = "Cuisine", action = "search", name = UrlParameter.Optional} );
+				defaults: new { controller = "Cuisine", action = "search", name = UrlParameter.Optional });
+
+			routes.MapRoute(
+				name: "Chef",
+				url: "chef/{name}",
+				defaults: new { controller = "Cuisine", action = "chef", name = UrlParameter.Optional });
 
 			routes.MapRoute(
 				name: "Default",
