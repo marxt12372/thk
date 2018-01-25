@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<OdeToFood.Models.RestourantReview>
 
 @{
-    ViewBag.Title = "Index";
+	ViewBag.Title = "Index";
 }
 
 <h2>The Latest Reviews</h2>
@@ -9,15 +9,10 @@
 We are showing @Model.Count() reviews.
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+	@Html.ActionLink("Create New", "Create")
 </p>
-<table>
-    @foreach (var item in Model)
-    {
-        <div class="review">
-            <h2>@item.Name</h2>
-            <span>@item.Rating</span>
-            <p>@item.City, @item.Country</p>
-        </div>
-    }
-</table>
+
+@foreach(var item in Model)
+{
+	@Html.Partial("_Review", item)
+}
