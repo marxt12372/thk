@@ -8,9 +8,9 @@ namespace OdeToFood.Models
 	public class RestourantReview
 	{
 		public int Id { get; set; }
-		public string Name { get; set; }
-		public string City { get; set; }
-		public string Country { get; set; }
-		public double Rating { get; set; }
+		public float Rating { get; set; }
+		public string Body { get; set; }
+		public string RatedBy { get; set; }
+		public int RestourantId { get; set; }
 	}
 }
