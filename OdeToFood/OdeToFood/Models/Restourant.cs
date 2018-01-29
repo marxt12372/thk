@@ -11,6 +11,6 @@ namespace OdeToFood.Models
 		public string Name { get; set; }
 		public string City { get; set; }
 		public string Country { get; set; }
-		public ICollection<RestourantReview> Reviews { get; set; }
+		public virtual ICollection<RestourantReview> Reviews { get; set; }
 	}
 }

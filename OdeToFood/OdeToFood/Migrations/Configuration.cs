@@ -4,17 +4,17 @@ namespace OdeToFood.Migrations
 	using System;
 	using System.Collections.Generic;
 	using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
+	using System.Data.Entity.Migrations;
+	using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<OdeToFood.Models.OdeToFoodDb>
-    {
-        public Configuration()
-        {
-            AutomaticMigrationsEnabled = true;
-        }
+	internal sealed class Configuration : DbMigrationsConfiguration<OdeToFood.Models.OdeToFoodDb>
+	{
+		public Configuration()
+		{
+			AutomaticMigrationsEnabled = true;
+		}
 
-        protected override void Seed(OdeToFood.Models.OdeToFoodDb context)
+		protected override void Seed(OdeToFood.Models.OdeToFoodDb context)
 		{
 			context.Restourants.AddOrUpdate(r => r.Name,
 				new Restourant { Name = "McDonalds", City = "Tallinn", Country = "Estonia" },
@@ -32,6 +32,6 @@ namespace OdeToFood.Migrations
 				},
 				new Restourant { Name = "La Dolce Vita", City = "Tartu", Country = "Estonia" }
 			);
-        }
-    }
+		}
+	}
 }

@@ -268,14 +268,13 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Restourant\Create.cshtml" />
     <Content Include="Views\Restourant\Delete.cshtml" />
-    <Content Include="Views\Restourant\Details.cshtml" />
     <Content Include="Views\Restourant\Edit.cshtml" />
     <Content Include="Views\Restourant\Index.cshtml" />
+    <Content Include="Views\Review\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Cuisine\" />
-    <Folder Include="Views\Review\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
