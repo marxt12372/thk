@@ -30,7 +30,7 @@ namespace OdeToFood.Controllers
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public ActionResult Create(RestourantReview review)
+		public ActionResult Create([Bind(Include = "Id,Name,City,Country")]RestourantReview review)
 		{
 			if (ModelState.IsValid)
 			{
@@ -58,7 +58,7 @@ namespace OdeToFood.Controllers
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public ActionResult Edit(RestourantReview review)
+		public ActionResult Edit([Bind(Exclude = "RatedBy")] RestourantReview review)
 		{
 			if (ModelState.IsValid)
 			{

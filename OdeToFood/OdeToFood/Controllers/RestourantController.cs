@@ -18,7 +18,7 @@ namespace OdeToFood.Controllers
 		public ActionResult Index(string searchTerm = null)
 		{
 			var model = db.Restourants.ToList();
-			if (searchTerm != null) model = (from r in model where r.Name.ToLower().Contains(searchTerm.ToLower()) orderby r.Name select r).ToList();
+			if(searchTerm != null) model = (from r in model where r.Name.ToLower().Contains(searchTerm.ToLower()) orderby r.Name select r).ToList();
 			return View(model);
 		}
 
