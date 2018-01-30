@@ -271,6 +271,9 @@
     <Content Include="Views\Restourant\Edit.cshtml" />
     <Content Include="Views\Restourant\Index.cshtml" />
     <Content Include="Views\Review\Index.cshtml" />
+    <Content Include="Views\Review\Create.cshtml" />
+    <Content Include="Views\Review\_Reviews.cshtml" />
+    <Content Include="Views\Review\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

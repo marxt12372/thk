@@ -15,9 +15,11 @@ namespace OdeToFood.Controllers
 		private OdeToFoodDb db = new OdeToFoodDb();
 
 		// GET: Restourant
-		public ActionResult Index()
+		public ActionResult Index(string searchTerm = null)
 		{
-			return View(db.Restourants.ToList());
+			var model = db.Restourants.ToList();
+			if (searchTerm != null) model = (from r in model where r.Name.ToLower().Contains(searchTerm.ToLower()) orderby r.Name select r).ToList();
+			return View(model);
 		}
 
 		// GET: Restourant/Create
@@ -95,7 +97,12 @@ namespace OdeToFood.Controllers
 		public ActionResult DeleteConfirmed(int id)
 		{
 			Restourant restourant = db.Restourants.Find(id);
+			List<RestourantReview> reviews = (from r in db.Reviews.ToList() where r.RestourantId == restourant.Id select r).ToList();
 			db.Restourants.Remove(restourant);
+			foreach(RestourantReview review in reviews)
+			{
+				db.Reviews.Remove(review);
+			}
 			db.SaveChanges();
 			return RedirectToAction("Index");
 		}

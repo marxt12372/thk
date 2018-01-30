@@ -6,6 +6,12 @@
 
 <h2>Index</h2>
 
+<form method="GET">
+	<input type="text" name="searchTerm" id="searchTerm" placeholder="Search..." class="form-control" />
+	<input type="submit" value="Search" class="btn btn-default" />
+	<input type="submit" value="Reset" onclick="document.getElementById('searchTerm').value=''" class="btn btn-default" />
+</form>
+
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
