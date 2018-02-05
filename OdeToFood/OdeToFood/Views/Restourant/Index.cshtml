@@ -6,18 +6,11 @@
 
 <h2>Index</h2>
 
-<!--<form method="GET">
-	<input type="text" name="searchTerm" id="searchTerm" placeholder="Search..." class="form-control" />
+<form method="GET" action="@Url.Action("Index")" data-otf-ajax="true" data-otf-target="#restourantList">
+	<input type="search" name="searchTerm" id="searchTerm" placeholder="Search..." class="form-control" data-otf-autocomplete="@Url.Action("Autocomplete")" />
 	<input type="submit" value="Search" class="btn btn-default" />
 	<input type="submit" value="Reset" onclick="document.getElementById('searchTerm').value=''" class="btn btn-default" />
-</form>-->
-
-@using (Ajax.BeginForm("Index", "Restourant", new AjaxOptions { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "restourantList" }))
-{
-	<input type="search" name="searchTerm" id="searchTerm" placeholder="Search..." class="form-control" />
-	<input type="submit" value="Search" class="btn btn-default" />
-	<input type="submit" value="Reset" onclick="document.getElementById('searchTerm').value=''" class="btn btn-default" />
-}
+</form>
 
 <p>
     @Html.ActionLink("Create New", "Create")

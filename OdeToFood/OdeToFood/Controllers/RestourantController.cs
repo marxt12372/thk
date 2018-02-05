@@ -14,11 +14,17 @@ namespace OdeToFood.Controllers
 	{
 		private OdeToFoodDb db = new OdeToFoodDb();
 
+		public ActionResult Autocomplete(string term)
+		{
+			var model = db.Restourants.Where(r => r.Name.StartsWith(term)).Take(10).Select(r => new { label = r.Name });
+			return Json(model, JsonRequestBehavior.AllowGet);
+		}
+
 		public ActionResult Index(string searchTerm = null)
 		{
 			var model = db.Restourants.ToList();
 			if(searchTerm != null && searchTerm != "") model = (from r in model where r.Name.ToLower().Contains(searchTerm.ToLower()) orderby r.Name select r).ToList();
-			//if(Request.IsAjaxRequest()) return PartialView("_Restourants", model);
+			if(Request.IsAjaxRequest()) return PartialView("_Restourants", model);
 			return View(model);
 		}
 
