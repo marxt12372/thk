@@ -274,6 +274,7 @@
     <Content Include="Views\Review\Create.cshtml" />
     <Content Include="Views\Review\_Reviews.cshtml" />
     <Content Include="Views\Review\Edit.cshtml" />
+    <Content Include="Views\Restourant\_Restourants.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

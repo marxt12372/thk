@@ -14,23 +14,19 @@ namespace OdeToFood.Controllers
 	{
 		private OdeToFoodDb db = new OdeToFoodDb();
 
-		// GET: Restourant
 		public ActionResult Index(string searchTerm = null)
 		{
 			var model = db.Restourants.ToList();
-			if(searchTerm != null) model = (from r in model where r.Name.ToLower().Contains(searchTerm.ToLower()) orderby r.Name select r).ToList();
+			if(searchTerm != null && searchTerm != "") model = (from r in model where r.Name.ToLower().Contains(searchTerm.ToLower()) orderby r.Name select r).ToList();
+			//if(Request.IsAjaxRequest()) return PartialView("_Restourants", model);
 			return View(model);
 		}
 
-		// GET: Restourant/Create
 		public ActionResult Create()
 		{
 			return View();
 		}
 
-		// POST: Restourant/Create
-		// To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-		// more details see https://go.microsoft.com/fwlink/?LinkId=317598.
 		[HttpPost]
 		[ValidateAntiForgeryToken]
 		public ActionResult Create([Bind(Include = "Id,Name,City,Country")] Restourant restourant)
@@ -45,7 +41,6 @@ namespace OdeToFood.Controllers
 			return View(restourant);
 		}
 
-		// GET: Restourant/Edit/5
 		public ActionResult Edit(int? id)
 		{
 			if (id == null)
@@ -60,9 +55,6 @@ namespace OdeToFood.Controllers
 			return View(restourant);
 		}
 
-		// POST: Restourant/Edit/5
-		// To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-		// more details see https://go.microsoft.com/fwlink/?LinkId=317598.
 		[HttpPost]
 		[ValidateAntiForgeryToken]
 		public ActionResult Edit([Bind(Include = "Id,Name,City,Country")] Restourant restourant)
@@ -76,7 +68,6 @@ namespace OdeToFood.Controllers
 			return View(restourant);
 		}
 
-		// GET: Restourant/Delete/5
 		public ActionResult Delete(int? id)
 		{
 			if (id == null)
@@ -91,7 +82,6 @@ namespace OdeToFood.Controllers
 			return View(restourant);
 		}
 
-		// POST: Restourant/Delete/5
 		[HttpPost, ActionName("Delete")]
 		[ValidateAntiForgeryToken]
 		public ActionResult DeleteConfirmed(int id)

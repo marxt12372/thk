@@ -30,7 +30,7 @@ namespace OdeToFood.Controllers
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public ActionResult Create([Bind(Include = "Id,Name,City,Country")]RestourantReview review)
+		public ActionResult Create([Bind(Include = "RestourantId,Rating,Body,RatedBy")] RestourantReview review)
 		{
 			if (ModelState.IsValid)
 			{
@@ -38,7 +38,6 @@ namespace OdeToFood.Controllers
 				db.SaveChanges();
 				return RedirectToAction("Index", new { id = review.RestourantId });
 			}
-
 			return View(review);
 		}
 
@@ -58,9 +57,10 @@ namespace OdeToFood.Controllers
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public ActionResult Edit([Bind(Exclude = "RatedBy")] RestourantReview review)
+		//public ActionResult Edit([Bind(Exclude = "RatedBy")] RestourantReview review)
+		public ActionResult Edit(RestourantReview review)
 		{
-			if (ModelState.IsValid)
+			if(ModelState.IsValid)
 			{
 				db.Entry(review).State = EntityState.Modified;
 				db.SaveChanges();

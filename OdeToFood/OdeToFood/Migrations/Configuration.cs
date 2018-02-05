@@ -20,18 +20,23 @@ namespace OdeToFood.Migrations
 				new Restourant { Name = "McDonalds", City = "Tallinn", Country = "Estonia" },
 				new Restourant { Name = "Staap", City = "Tallinn", Country = "Estonia",
 					Reviews = new List<RestourantReview> {
-						new RestourantReview { Rating = 4.5f, Body = "Okei koht" },
-						new RestourantReview { Rating = 5.5f, Body = "Suhteliselt OK" }
+						new RestourantReview { Rating = 4.5f, Body = "Okei koht", RatedBy = "Tundmatu" },
+						new RestourantReview { Rating = 5.5f, Body = "Suhteliselt OK", RatedBy = "Tundmatu2" }
 					}
 				},
 				new Restourant { Name = "Daily", City = "Tallinn", Country = "Estonia",
 					Reviews = new List<RestourantReview> {
-						new RestourantReview { Rating = 1.0f, Body = "Väga halb toit" },
-						new RestourantReview { Rating = 0.1f, Body = "Vastik!" }
+						new RestourantReview { Rating = 1.0f, Body = "Väga halb toit", RatedBy = "Tundmatu3" },
+						new RestourantReview { Rating = 0.1f, Body = "Vastik!", RatedBy = "Tundmatu4" }
 					}
 				},
 				new Restourant { Name = "La Dolce Vita", City = "Tartu", Country = "Estonia" }
 			);
+
+			for (int i = 0; i < 1000; i++)
+			{
+				context.Restourants.AddOrUpdate(r => r.Name, new Restourant { Name = "Restourant " + i, City = "Somewhere", Country = "Estonia" } );
+			}
 		}
 	}
 }

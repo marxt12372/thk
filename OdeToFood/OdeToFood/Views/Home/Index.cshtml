@@ -4,38 +4,3 @@
     ViewBag.Title = "Home Page";
 }
 
-<form method="GET">
-	<input type="text" name="searchTerm" id="searchTerm" placeholder="Search..." class="form-control" />
-	<input type="submit" value="Search" class="btn btn-default"/>
-	<input type="submit" value="Reset" onclick="document.getElementById('searchTerm').value=''" class="btn btn-default" />
-</form>
-
-@foreach (var item in Model)
-{
-	<div>
-		<h4>@item.Name</h4>
-		<div>@item.City, @item.Country</div>
-			@{
-				List<float> ratings = new List<float>();
-				if (item.Reviews != null)
-				{
-					if (item.Reviews.Count > 0)
-					{
-						<div>Reviews(@item.Reviews.Count):<br /><br />
-						@foreach (var review in item.Reviews)
-						{
-							<div>@review.Body (@review.Rating.ToString().Replace(',', '.'))</div>
-							ratings.Add(review.Rating);
-						}
-						<br />Rating: @ratings.Average().ToString().Replace(',', '.')
-						</div>
-					}
-					else
-					{
-						<div>No Reviews</div>
-					}
-				}
-			}
-		<hr />
-	</div>
-}

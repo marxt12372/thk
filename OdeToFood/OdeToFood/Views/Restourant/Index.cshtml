@@ -6,46 +6,21 @@
 
 <h2>Index</h2>
 
-<form method="GET">
+<!--<form method="GET">
 	<input type="text" name="searchTerm" id="searchTerm" placeholder="Search..." class="form-control" />
 	<input type="submit" value="Search" class="btn btn-default" />
 	<input type="submit" value="Reset" onclick="document.getElementById('searchTerm').value=''" class="btn btn-default" />
-</form>
+</form>-->
+
+@using (Ajax.BeginForm("Index", "Restourant", new AjaxOptions { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "restourantList" }))
+{
+	<input type="search" name="searchTerm" id="searchTerm" placeholder="Search..." class="form-control" />
+	<input type="submit" value="Search" class="btn btn-default" />
+	<input type="submit" value="Reset" onclick="document.getElementById('searchTerm').value=''" class="btn btn-default" />
+}
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.City)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Country)
-        </th>
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.City)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Country)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Reviews", "Index", "Review", new { id=item.Id }, null) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
-
-</table>
+@Html.Partial("_Restourants", Model)
