@@ -117,3 +117,7 @@ C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeT
 C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeToFood\obj\Debug\OdeToFood.csproj.CoreCompileInputs.cache
 C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeToFood\obj\Debug\OdeToFood.dll
 C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeToFood\obj\Debug\OdeToFood.pdb
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeToFood\bin\PagedList.dll
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeToFood\bin\PagedList.Mvc.dll
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeToFood\bin\PagedList.xml
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeToFood\bin\PagedList.Mvc.xml

@@ -2,41 +2,32 @@ namespace OdeToFood.Migrations
 {
 	using OdeToFood.Models;
 	using System;
-	using System.Collections.Generic;
-	using System.Data.Entity;
-	using System.Data.Entity.Migrations;
-	using System.Linq;
+    using System.Data.Entity;
+    using System.Data.Entity.Migrations;
+    using System.Linq;
 
-	internal sealed class Configuration : DbMigrationsConfiguration<OdeToFood.Models.OdeToFoodDb>
-	{
-		public Configuration()
-		{
-			AutomaticMigrationsEnabled = true;
-		}
+    internal sealed class Configuration : DbMigrationsConfiguration<OdeToFood.Models.OdeToFoodDb>
+    {
+        public Configuration()
+        {
+            AutomaticMigrationsEnabled = true;
+        }
 
-		protected override void Seed(OdeToFood.Models.OdeToFoodDb context)
-		{
-			context.Restourants.AddOrUpdate(r => r.Name,
-				new Restourant { Name = "McDonalds", City = "Tallinn", Country = "Estonia" },
-				new Restourant { Name = "Staap", City = "Tallinn", Country = "Estonia",
-					Reviews = new List<RestourantReview> {
-						new RestourantReview { Rating = 4.5f, Body = "Okei koht", RatedBy = "Tundmatu" },
-						new RestourantReview { Rating = 5.5f, Body = "Suhteliselt OK", RatedBy = "Tundmatu2" }
-					}
-				},
-				new Restourant { Name = "Daily", City = "Tallinn", Country = "Estonia",
-					Reviews = new List<RestourantReview> {
-						new RestourantReview { Rating = 1.0f, Body = "Väga halb toit", RatedBy = "Tundmatu3" },
-						new RestourantReview { Rating = 0.1f, Body = "Vastik!", RatedBy = "Tundmatu4" }
-					}
-				},
-				new Restourant { Name = "La Dolce Vita", City = "Tartu", Country = "Estonia" }
-			);
+        protected override void Seed(OdeToFood.Models.OdeToFoodDb context)
+        {
+            string[] names = new string[]{ "Mcdonalds", "Daily", "Restoran", "Blaaahum", "Lokomotiiv", "Blaahum", "Hesburger", "Wimka", "La Dolce Vita", "Pood", "Rimi", "Selver",
+			"Prisma", "Muxima", "Krossipood", "Kassipood", "Raxon", "Viinapood"};
+			int[] namesUsed = new int[64];
+			string[] linnad = new string[] { "Tallinn", "Tartu", "Pärnu", "Haapsalu", "Valga", "Võru", "Kuressaare", "Kärdla", "Viljandi" };
 
-			for (int i = 0; i < 1000; i++)
+			Random rand = new Random();
+
+			for(int i = 0; i <= 1000; i++)
 			{
-				context.Restourants.AddOrUpdate(r => r.Name, new Restourant { Name = "Restourant " + i, City = "Somewhere", Country = "Estonia" } );
+				int name = rand.Next(0, names.Length);
+				namesUsed[name]++;
+				context.Restourants.AddOrUpdate(r => r.Name, new Restourant { Name = names[name] + " " + namesUsed[name], City = linnad[rand.Next(0, linnad.Length)], Country = "Estonia" });
 			}
-		}
-	}
+        }
+    }
 }

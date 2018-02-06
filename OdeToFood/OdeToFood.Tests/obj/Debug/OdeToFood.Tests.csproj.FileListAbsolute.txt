@@ -98,3 +98,5 @@ C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeT
 C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeToFood.Tests\bin\Debug\roslyn\vbc.rsp
 C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeToFood.Tests\bin\Debug\roslyn\VBCSCompiler.exe
 C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeToFood.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeToFood.Tests\bin\Debug\PagedList.dll
+C:\Users\opilane\Documents\Visual Studio 2017\Projects\tthk-proge\OdeToFood\OdeToFood.Tests\bin\Debug\PagedList.xml

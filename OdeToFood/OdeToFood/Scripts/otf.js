@@ -15,7 +15,6 @@
 			var $newhtml = $(data);
 			$target.replaceWith($newhtml);
 			$newhtml.effect("highlight");
-			$target.highlight();
 		});
 
 		return false;
@@ -39,9 +38,29 @@
 			select: selectAutocompleteItem
 		};
 
-		$input.autocomplete(options);
+		//$input.autocomplete(options);
+	}
+
+	function getPage()
+	{
+		var $a = $(this);
+
+		var options = {
+			url: $a.attr("href"),
+			data: $("form").serialize(),
+			type: "get"
+		};
+
+		$.ajax(options).done(function (data) {
+			var target = $a.parents("div.pagedList").attr("data-otf-target");
+			$(target).replaceWith(data);
+			$(target).effect("highlight");
+		});
+		return false;
 	}
 
 	$("form[data-otf-ajax='true']").submit(ajaxFormSubmit);
 	$("input[data-otf-autocomplete]").each(autoCompleteAction);
+
+	$(".main-content").on("click", ".pagedList a", getPage);
 });

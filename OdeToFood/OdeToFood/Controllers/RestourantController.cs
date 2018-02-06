@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using OdeToFood.Models;
+using PagedList;
 
 namespace OdeToFood.Controllers
 {
@@ -20,10 +21,19 @@ namespace OdeToFood.Controllers
 			return Json(model, JsonRequestBehavior.AllowGet);
 		}
 
-		public ActionResult Index(string searchTerm = null)
+		public ActionResult Index(string searchTerm = null, int page = 1)
 		{
-			var model = db.Restourants.ToList();
-			if(searchTerm != null && searchTerm != "") model = (from r in model where r.Name.ToLower().Contains(searchTerm.ToLower()) orderby r.Name select r).ToList();
+			IPagedList<RestourantListViewModel> model;
+			if(searchTerm == null || searchTerm == "")
+			{
+				model = db.Restourants.OrderBy(r => r.City).Select(r => new RestourantListViewModel { Id = r.Id, Name = r.Name, City = r.City, Country = r.Country }).ToPagedList(page, 10);
+			}
+			else
+			{
+				model = db.Restourants.OrderBy(r => r.City).Where(r => r.Name.ToLower().Contains(searchTerm.ToLower()))
+					.Select(r => new RestourantListViewModel { Id = r.Id, Name = r.Name, City = r.City, Country = r.Country }).ToPagedList(page, 10);
+			}
+
 			if(Request.IsAjaxRequest()) return PartialView("_Restourants", model);
 			return View(model);
 		}
