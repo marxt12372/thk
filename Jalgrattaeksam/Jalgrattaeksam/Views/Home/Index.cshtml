@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Jalgrattaeksam.Models.Eksamineeritavad>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div>
+	@Html.ActionLink("Registreeru jalgrattaeksamile", "Create")
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Eesnimi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Perenimi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Teooriaeksam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Slaalom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ringtee)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tanavasoit)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Eesnimi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Perenimi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Teooriaeksam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Slaalom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ringtee)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tanavasoit)
+        </td>
+    </tr>
+}
+
+</table>
