@@ -58,11 +58,11 @@ namespace OdeToFood
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "883333525558-vi170ftjaf7n5j0mqabc0t34plvjpicd.apps.googleusercontent.com",
+                ClientSecret = "kFpROTYKQRlcqmrZFnozdxlm"
+			});
         }
     }
 }

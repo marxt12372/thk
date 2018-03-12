@@ -79,7 +79,10 @@ namespace OdeToFood.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
-    }
+
+		[Display(Name = "Lemmik Restoraan")]
+		public string LemmikRestoraan { get; set; }
+	}
 
     public class ResetPasswordViewModel
     {
