@@ -1,0 +1,57 @@
+﻿@model IEnumerable<HirmudeMaja.Models.Visitor>
+
+@{
+	ViewBag.Title = "Visitors";
+
+	DateTime UnixTimeStampToDateTime(double unixTimeStamp)
+	{
+		System.DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
+		dtDateTime = dtDateTime.AddSeconds(unixTimeStamp).ToLocalTime();
+		return dtDateTime;
+	}
+}
+
+<h2>Visitors</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Eesnimi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sisenes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lahkus)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Eesnimi)
+        </td>
+        <td>
+            @if(item.Sisenes != -1)
+			{
+				@UnixTimeStampToDateTime(item.Sisenes).ToString();
+			}
+			else
+			{
+				<p>Pole veel sisenenud</p>
+			}
+        </td>
+        <td>
+            @if(item.Lahkus != -1)
+			{
+				@UnixTimeStampToDateTime(item.Lahkus).ToString();
+			}
+			else
+			{
+				<p>Pole veel lahkunud</p>
+			}
+        </td>
+    </tr>
+}
+
+</table>
